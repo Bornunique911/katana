@@ -1,5 +1,5 @@
 # Dockerfile to spin up a working Katana installation
-FROM python:3.8
+FROM python:3.12-rc-slim-buster
 
 ENV DEBIAN_FRONTEND=noninteractive
 
